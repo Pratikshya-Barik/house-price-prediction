@@ -40,4 +40,4 @@ With the log transform and outlier removal, 5-fold cross-validated R² rose from
 - Try other models (for example gradient boosting) and tune more settings, such as `min_samples_leaf` and `max_features`
 - Add more engineered features and check them with cross-validation
 - Re-check the log transform and the outlier removal with cross-validation, since they were only tested on a single split
-- Build a simple web app where a user enters house details and gets a predicted price
+- Expand the Streamlit app to accept additional property features, such as bathrooms, and evaluate whether the new features improve prediction performance.
